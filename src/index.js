@@ -21,7 +21,8 @@ const server = http.createServer(app);
 
 Object.entries(config.appSettings).forEach(([k, v]) => app.set(k, v));
 
-app.use(cors(config.cors));
+// app.use(cors(config.cors));
+app.use(cors());
 app.use(bodyParser.urlencoded({
   extended: true
 }));
