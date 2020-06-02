@@ -1,0 +1,23 @@
+{
+  "name": "sell_five_back",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "load-config-js": "^0.1.0",
+    "module-alias": "^2.2.2",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "_moduleAliases": {
+    "@": "src"
+  }
+}
